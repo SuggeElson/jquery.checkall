@@ -1,9 +1,34 @@
 {
   "name": "jquery.checkall",
   "version": "1.0.0",
-  "dependencies": {},
+  "dependencies": {
+    "jquery": "~2.1.4"
+  },
   "devDependencies": {
     "qunit": "~1.12.0",
     "jquery": "~2.1.4"
-  }
+  },
+  "homepage": "https://github.com/SuggeElson/jquery.checkall",
+  "authors": [
+    "SuggeElson <jorolino@gmail.com>"
+  ],
+  "description": "JQuery plugin to check all child elements like checkboxes, panels, tables row and etc. by adding highlight class",
+  "main": "src/jquery.checkall.js",
+  "moduleType": [],
+  "keywords": [
+    "checkall",
+    "checkboxes",
+    "row",
+    "highlight",
+    "check",
+    "all"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
 }
