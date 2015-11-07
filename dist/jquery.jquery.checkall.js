@@ -1,9 +1,5 @@
-/*
- * jQuery Plugin checkAll child elements
- * version 1.0.0
- * Copyright (c) 2015 SuggeElson
- * Licensed under the MIT license.
- */
+/*! jquery.checkall - v1.0.0 - 2015-11-07
+* Copyright (c) 2015 SuggeElson; Licensed MIT */
 ;(function ( $, window, document, undefined ) {
 
     // Create the defaults once
