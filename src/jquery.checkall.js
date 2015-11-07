@@ -11,10 +11,6 @@
         defaults = {
             masterCheckbox: '.checkAll',
             otherCheckboxes : '.check',
-            highlightRows: {
-                active: false,
-                row: 'tr'
-            },
             highlightElement: {
                 active: false,
                 elementClass: 'panel',
@@ -64,16 +60,6 @@
                 }
 
             });
-
-            if (opts.highlightRows.active) {
-                checkboxes.on('change', function () {
-                    if(this.checked) {
-                       $(this).closest(opts.highlightRows.row).addClass('highlight');
-                    } else {
-                        $(this).closest(opts.highlightRows.row).removeClass('highlight');
-                    }
-                });
-            }
 
             if (opts.highlightElement.active) {
                 checkboxes.on('change', function () {
